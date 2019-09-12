@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Zhijie Wu</title>
+    <link>https://zhijieW94.github.io/talk/</link>
+      <atom:link href="https://zhijieW94.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Jul 2019 14:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhijieW94.github.io/img/icon-192.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://zhijieW94.github.io/talk/</link>
+    </image>
+    
+    <item>
+      <title>The SIGGRAPH presentation for SAGNet</title>
+      <link>https://zhijieW94.github.io/talk/sagnet_sig/</link>
+      <pubDate>Wed, 31 Jul 2019 14:00:00 +0000</pubDate>
+      <guid>https://zhijieW94.github.io/talk/sagnet_sig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The GAMES presentation for SAGNet</title>
+      <link>https://zhijieW94.github.io/talk/sagnet_games/</link>
+      <pubDate>Thu, 13 Jun 2019 20:00:00 +0000</pubDate>
+      <guid>https://zhijieW94.github.io/talk/sagnet_games/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
