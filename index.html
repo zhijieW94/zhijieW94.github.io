@@ -82,6 +82,49 @@
   
   <link rel="stylesheet" href="/css/academic.min.dd629241ea9333c62c071f4a25f829ff.css">
 
+  <style>
+    /* Under-review highlight in the Publications section */
+    .review-note {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin: 0 0 2.25rem;
+      padding: 16px 20px;
+      background: linear-gradient(90deg, rgba(41, 98, 255, .10), rgba(41, 98, 255, .02));
+      border: 1px solid rgba(41, 98, 255, .18);
+      border-left: 4px solid #2962ff;
+      border-radius: 10px;
+    }
+    .review-note-icon {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #2962ff;
+      color: #fff;
+      box-shadow: 0 3px 8px rgba(41, 98, 255, .35);
+    }
+    .review-note-text {
+      margin: 0;
+      line-height: 1.55;
+      color: rgba(0, 0, 0, .82);
+    }
+    .review-note-text strong {
+      color: #2962ff;
+      font-weight: 700;
+    }
+    body.dark .review-note {
+      background: linear-gradient(90deg, rgba(41, 98, 255, .24), rgba(41, 98, 255, .06));
+      border-color: rgba(120, 160, 255, .30);
+      border-left-color: #6d95ff;
+    }
+    body.dark .review-note-text { color: #f8f8f2; }
+    body.dark .review-note-text strong { color: #93b2ff; }
+  </style>
+
   
 
   
@@ -491,6 +534,16 @@
   </div>
   <div class="col-12 col-lg-8">
     
+
+    <!-- Under-review highlight -->
+    <div class="review-note" role="note">
+      <span class="review-note-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="13" y2="17"/></svg>
+      </span>
+      <p class="review-note-text">
+        <strong>Four more papers</strong> on 3D modeling are currently under review, <strong>three of them as first author</strong>.
+      </p>
+    </div>
 
     <!-- MERG3R -->
     <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
